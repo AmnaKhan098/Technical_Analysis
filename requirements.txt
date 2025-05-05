@@ -3,3 +3,4 @@ finnhub-python
 google-generativeai
 requests
 Pillow
+python-dotenv

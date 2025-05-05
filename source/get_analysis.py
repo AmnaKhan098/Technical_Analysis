@@ -1,4 +1,10 @@
-# Analysis of chart
+
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+api_key = os.getenv("GEMINI_API_KEY")# Analysis of chart
 def get_Analysis(image2):
 
     # Encode the image to base64
