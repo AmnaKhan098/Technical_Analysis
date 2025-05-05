@@ -1,3 +1,5 @@
+from datetime import datetime, timedelta
+import finnhub
 # Getting News
 def Get_news(ticker):
   # Initialize the Finnhub client
