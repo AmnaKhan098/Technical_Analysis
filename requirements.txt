@@ -1,0 +1,3 @@
+%pip install -U langchain-google-genai
+!pip install finnhub-python
+!pip install finnhub-python
