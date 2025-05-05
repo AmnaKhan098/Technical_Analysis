@@ -1,3 +1,5 @@
-%pip install -U langchain-google-genai
-!pip install finnhub-python
-!pip install finnhub-python
+langchain-google-genai
+finnhub-python
+google-generativeai
+requests
+Pillow
