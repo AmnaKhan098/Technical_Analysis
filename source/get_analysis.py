@@ -1,4 +1,7 @@
-
+from langchain_google_genai import ChatGoogleGenerativeAI
+import google.generativeai as genai
+from io import BytesIO
+import base64
 from dotenv import load_dotenv
 import os
 

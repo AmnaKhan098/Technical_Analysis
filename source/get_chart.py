@@ -1,4 +1,9 @@
+import requests
+from PIL import Image
+from io import BytesIO
+import json
 # Generating charts
+
 def chart_generation(ticker):
     url = "https://api.chart-img.com/v2/tradingview/advanced-chart"
     headers = {

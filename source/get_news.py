@@ -23,6 +23,6 @@ def Get_news(ticker):
               "url": article['url']
           }
 
-      print(news_data)
+      return news_data
   else:
       print("No news available for the selected period.")
